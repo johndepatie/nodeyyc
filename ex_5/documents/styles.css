@@ -9,19 +9,27 @@ body{
 	width: 90%;
 	max-width: 1200px;
 }
+.banner{
+	background-color: #3F2F47;
+	height: 15px;
+}
 #resume{
 	margin: 0 auto;
-	background-color: #EDEDED;
+	background-color: #F8F8F8;
 	width: 80%;
 	max-width: 1200px;
+	min-width: 900px;
 }
 #pfp{
 	margin:auto;
 	text-align: center;
 }
 #pfp img{
-	padding-top: 30px;
-	padding-bottom: 30px;
+	border-radius: 50%;
+	border: 3px solid #3F2F47;
+	object-fit: cover;
+	margin-top: 30px;
+	margin-bottom: 30px;
 	height: auto;
 	max-width: 160px;
 }
@@ -40,15 +48,40 @@ body{
 	margin-left: -40px;
 	margin-bottom: -30px;
 }
+#contact{
+	position: relative;
+	top: 20px;
+	text-align: center;
+	margin: 20px auto;
+	padding-bottom: 30px;
+}
 .category ul{
 	list-style-type: none;
 	text-align: justify;
+	max-width: 88%;
 }
 .category li.bulleted{
+	position: relative;
+	width: 110%;
+	bottom: 10px;
+	right: 20px;
+	list-style-type: disc;
+	text-align: justify;
+	font-size: 15px;
+	line-height: 1.3;
+}
+.category li.sBulleted{
 	list-style-type: disc;
 	margin-left: 20px;
 	text-align: justify;
 	font-size: 15px;
+}
+.category h3{
+	font-family: 'Roboto', sans-serif;
+	color: #3A2F3F;
+	text-transform: uppercase;
+	letter-spacing: 6px;
+	font-size: 16px;
 }
 .category h4{
 	text-transform: uppercase;
@@ -57,10 +90,27 @@ body{
 .category article h4{
 	color: #121212;
 }
+.category sub{
+	font-family: 'Mukta', sans-serif;
+	font-size: 13px;
+	position: relative;
+	bottom: 10px;
+}
 .category article{
 	font-family: 'Roboto', sans-serif;
 	font-size: 14px;
 	line-height: 0.5;
+}
+.expBlerb{
+	line-height: 1.3;
+}
+.category small{
+	font-family: 'Open Sans Condesned', sans-serif;
+	font-size: 14px;
+	color: #564A64;
+}
+.row{
+	display: flex;
 }
 .column {
 	align-content: center;
@@ -71,17 +121,21 @@ body{
 	text-align: justify;
   	width: 29%;
 	padding-left: 5px;
-	border-right: 1px solid #BDBDBD;
+	padding-right: -20px;
+	border-right: 2px solid #3F2F47;
 }
 .left hr{
 	max-width: 75%;
 }
 
 .right {
- 	width: 70%;
+ 	width: 68%;
+	padding-left: 15px;
 	text-align: center;
 }
-
+.right hr{
+	max-width: 88%;
+}
 .row:after {
 	content: "";
   	display: table;
