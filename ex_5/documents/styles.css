@@ -1,0 +1,95 @@
+/* CSS Document */
+body{
+	background-color: #D0D0D0;
+	font-family: 'Roboto', sans-serif;
+}
+
+#wrapper{
+	margin: 0 auto;
+	width: 90%;
+	max-width: 1200px;
+}
+#resume{
+	margin: 0 auto;
+	background-color: #EDEDED;
+	width: 80%;
+	max-width: 1200px;
+}
+#pfp{
+	margin:auto;
+	text-align: center;
+}
+#pfp img{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	height: auto;
+	max-width: 160px;
+}
+#contact ul{
+	font-family: 'Roboto', sans-serif;
+	list-style-type: none;
+	margin: 0;
+	text-align: left;
+	word-spacing: 3px;
+	margin-left: 40px;
+	padding-bottom: 10px
+}
+#contact img{
+	height: auto;
+	max-width: 30px;
+	margin-left: -40px;
+	margin-bottom: -30px;
+}
+.category ul{
+	list-style-type: none;
+	text-align: justify;
+}
+.category li.bulleted{
+	list-style-type: disc;
+	margin-left: 20px;
+	text-align: justify;
+	font-size: 15px;
+}
+.category h4{
+	text-transform: uppercase;
+	color: #3C3C43;
+}
+.category article h4{
+	color: #121212;
+}
+.category article{
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	line-height: 0.5;
+}
+.column {
+	align-content: center;
+  	float: left;
+  	width: 50%;
+}
+.left {
+	text-align: justify;
+  	width: 29%;
+	padding-left: 5px;
+	border-right: 1px solid #BDBDBD;
+}
+.left hr{
+	max-width: 75%;
+}
+
+.right {
+ 	width: 70%;
+	text-align: center;
+}
+
+.row:after {
+	content: "";
+  	display: table;
+  	clear: both;
+}
+
+footer{
+	margin: auto;
+	text-align: center;
+	font-size: 12px;
+}
