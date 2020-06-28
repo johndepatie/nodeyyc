@@ -1,0 +1,26 @@
+/* CSS Document */
+body{
+	line-height: 1.6;
+}
+#sOne{
+	background-color: #f8f9fa;
+	text-align: center;
+	color: #202122;
+	box-sizing: border-box;
+	border-spacing: 2px;
+	display: table;
+	border-collapse: collapse;
+}
+#sOne tr, td, th{
+	border: 1px solid #a2a9b1;
+}
+#sOne thead{
+	background-color: #295354;
+	color: white;
+}
+.nO{
+	background-color: #C5C5C5;
+}
+.eT{
+	text-align: left;
+}
