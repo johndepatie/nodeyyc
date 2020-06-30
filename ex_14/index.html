@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Create User</title>
+	</head>
+
+	<body>
+		<h3>Create User</h3>
+		<hr>
+		<form action="create_user.html" method="get" enctype="application/x-www-form-urlencoded">
+			<fieldset style="width: 320px;">
+				<legend>User Form</legend>
+				<label>
+					Username:<br>
+					<input type="text" name="username" placeholder="username" size="40" maxlength="12">
+				</label><br>
+				<label>
+					Password:<br>
+					<input type="password" name="password" placeholder="password" size="40" maxlength="8">
+				</label>
+				<label>
+					<p>Select your favourite superhero:</p>
+					<input type="radio" name="superhero" value="superman">Superman
+					<input type="radio" name="superhero" value="batman">Batman
+					<input type="radio" name="superhero" value="wonderwoman" checked>Wonder Woman<br>
+					<input type="radio" name="superhero" value="flash">Flash
+					<input type="radio" name="superhero" value="thor">Thor
+					<input type="radio" name="superhero" value="hulk">Hulk
+				</label>
+				<label>
+					<p>Select your favourite video game(s):</p>
+					<input type="checkbox" name="games" value="FIFA">FIFA
+					<input type="checkbox" name="games" value="NHL">NHL
+					<input type="checkbox" name="games" value="RE">Resident Evil
+					<input type="checkbox" name="games" value="UC">Uncharted
+				</label><br>
+				<label for="dob">Please enter your date of birth:<br>
+					<input type="date" name="dob" id="dob" value="Date of birth">
+				</label><br>
+				<label for="email">Please enter your email:<br>
+					<input type="email" name="email" id="email" value="email@domain.com"><br>
+				</label>
+				<label for="site">Please enter your personal site:<br>
+					<input type="url" name="site" id="site" value="example.com"><br>
+				</label>
+				<input type="hidden" name="userid" value="2300">
+				<input type="image" name="login" src="img/register_button.png" alt="register" style="height: 40px; margin-top: 10px;">
+			</fieldset>
+		</form>
+		<form action="https://www.google.ca/search" method="get">
+			<fieldset style="width: 320px;">
+				<label for="search">Google Search:
+					<input type="search" value="" name="query" id="search" placeholder="Search Google">
+				</label>
+				<input type="submit">
+			</fieldset>
+		</form>
+	</body>
+</html>
