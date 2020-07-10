@@ -1,0 +1,41 @@
+/* CSS Document */
+
+p{
+	color: #392C4A;
+	background-color: antiquewhite;
+	margin: 10px 15px;
+	padding: 10px 15px;
+	padding-bottom: 0px;
+	text-align: center;
+}
+div > p{
+	width: 50%;
+	min-width: 900px;
+}
+div > p:first-child:first-letter{
+	font-size: 28px;
+	color: black;
+}
+div > p:last-child{
+	border-bottom: 1px solid #392c4a;
+}
+#div2 > p:nth-child(1){
+	color: indigo;
+	background-color: orange;
+}
+#div2 > p:nth-child(2){
+	color: darkgreen;
+	background-color:darkgray;
+}
+#div2 > p:nth-child(3){
+	color: aqua;
+	background-color: black;
+}
+#div3 >p:first-child{
+	color: mediumpurple;
+	background: linear-gradient(#6cbba2, #9198e5);
+}
+#div4 >p:last-child{
+	color: blue;
+	background-color: wheat;
+}
