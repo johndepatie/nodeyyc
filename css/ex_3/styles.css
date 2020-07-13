@@ -1,0 +1,57 @@
+#block{
+    width: 900px;
+    margin: 50px auto;
+    background-color: #F0F0F0;
+    overflow-y: auto;
+}
+
+/*
+thead, tfoot {
+	display:grid;
+}
+thead > tr > th:nth-child(1){
+    width: 170px;
+}
+thead > tr > th:nth-child(2){
+    width: 550px;
+}
+thead > tr > th:nth-child(3){
+    width: 70px;
+}
+tbody {
+	height:275px;
+	overflow:auto;
+	overflow-x:hidden;
+	display:block;
+	width:100%;
+}
+*/
+thead > tr{
+    background-color: #727272;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+    color: lightpink;
+    font-size: 14px;
+}
+tbody > tr:nth-child(2n){
+    background-color: lightgrey;
+}
+tr > td:first-child{
+    text-align: center;
+    width: 20%;
+}
+tr > td:nth-child(2){
+    color: darkslategrey;
+    text-align: left;
+    width: 70%;
+}
+tr > td:nth-child(3){
+    text-align: center;
+    width: 6%;
+}
+tr > td:nth-child(4){
+    text-align: center;
+}
+tr > td:nth-child(5){
+    color: deeppink;
+    text-align: right;
+}
