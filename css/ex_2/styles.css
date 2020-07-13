@@ -1,0 +1,63 @@
+/* CSS Document */
+ul {
+	width: 700px;
+	color: hotpink;
+}
+ol {
+	width: 700px;
+	color: cornflowerblue;
+}
+.sub_ul {
+	width: 50%;
+}
+.nobullet {
+	position: fixed;
+	width: 100%;
+	top: 0px;
+	padding-top: 0px;
+	margin-top: 0px;
+	list-style: none;
+	overflow: hidden;
+	background-color: antiquewhite;
+}
+.nobullet > li{
+	float: left;
+	margin: auto;
+}
+.newbullet {
+	list-style: square;
+}
+.custombullet {
+	list-style-image: url("img/next10px.png");
+}
+ol > li:nth-child(odd){
+	color: purple;
+	background-color: antiquewhite;
+}
+#main{
+	margin-top: 60px;
+}
+#break{
+	margin-bottom: 2000px;
+}
+#sticky{
+	position: -webkit-sticky;
+	position: sticky;
+	left: 10px;
+	bottom: 10px;
+	padding: 0;
+	background-color: #eee;
+	width: 250px;
+}
+#links a{
+	background-color: orange;
+}
+#links a:link{
+	text-decoration: none;
+}
+#links a:hover{
+	text-decoration: underline;
+}
+#links a:visited{
+	background-color: #6CBBA2;
+}
